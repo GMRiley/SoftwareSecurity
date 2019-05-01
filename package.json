@@ -1,0 +1,25 @@
+{
+  "name": "SoftwareSecurity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd sec_backend && npm i && cd ../sec_frontend && npm i",
+    "build": "cd sec_backend && node userAPI && cd ../sec_frontend && npm start",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMRiley/SoftwareSecurity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GMRiley/SoftwareSecurity/issues"
+  },
+  "homepage": "https://github.com/GMRiley/SoftwareSecurity#readme",
+  "dependencies": {
+    "exec-sh": "^0.3.2"
+  }
+}
