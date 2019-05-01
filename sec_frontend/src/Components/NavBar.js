@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Form, Button, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Form, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 class AppNav extends React.Component {

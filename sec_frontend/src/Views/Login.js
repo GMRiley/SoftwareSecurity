@@ -77,6 +77,7 @@ class Login extends Component {
         }).then((data) => {
             return data.json();
         }).then((myJson)=>{
+            console.log(myJson);
         })
     }
 }
