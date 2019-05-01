@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 
 require('dotenv').config()
 
+console.log("Backend Initializing");
 const knex = require('knex')({
     client: 'mssql',
     connection: {

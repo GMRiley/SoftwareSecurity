@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/GMRiley/SoftwareSecurity/issues"
   },
-  "homepage": "https://github.com/GMRiley/SoftwareSecurity#readme",
-  "dependencies": {
-    "exec-sh": "^0.3.2"
-  }
+  "homepage": "https://github.com/GMRiley/SoftwareSecurity#readme"
 }
